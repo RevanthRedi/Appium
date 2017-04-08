@@ -10,7 +10,12 @@
   <name>FbAppium</name>
   <url>http://maven.apache.org</url>
   
-  <dependencies>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+   <dependencies>
   	
   	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 	<dependency>
@@ -42,17 +47,6 @@
 	    <artifactId>cucumber-testng</artifactId>
 	    <version>1.2.5</version>
 	</dependency>
-	
-	
-	
-  	
-  	
-  
-  
-  </dependencies>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+</dependencies>  
 
 </project>
